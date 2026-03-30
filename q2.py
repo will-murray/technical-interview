@@ -14,18 +14,7 @@ def get_dog_breeds():
 
     API DOCS: https://dogapi.dog/docs/api-v2
     """
-    
-    response =requests.get(url = BASEURL + "/breeds")
-
-    D = json.loads(response.text)
-
-    data = D["data"]
-    for i, item in enumerate(data):
-        attrs = item["attributes"]
-        is_hypo = bool(attrs["hypoallergenic"])
-        if is_hypo:
-            print(i, "\t|\t" , attrs["name"])
-
+    pass
 
 get_dog_breeds()
 
