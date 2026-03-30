@@ -1,0 +1,1 @@
+This repo contains the coding interview questions for the fullstack job position at Zoolstra.
