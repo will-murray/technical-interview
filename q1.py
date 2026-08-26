@@ -1,22 +1,12 @@
-# This question asks you to make a call to the dogsapi. 
-# Implement the get_dog_breeds() function. 
+# complete the implementation of fizzbuzz.
+# Given an integer n the program should:
 
+# print fizz if n is an divisible of 3
+# print buzz if n is divisible of 5
+# print fizzbuzz if n is divisible of 3 and 5
 
-import requests
-import json
-BASEURL = "https://dogapi.dog/api/v2"
+# CONSTRAINTS:
+# make at most 2 calls to the modulo operator
 
-def get_dog_breeds():
-    """
-    1) Use the GET breeds/ API endpoint at https://dogapi.dog/api/v2/breeds to fetch dog breeds. 
-    2) Decode the reponse with json.loads and print out the names of all the dogs which are hypoallegenic
-
-
-    API DOCS: https://dogapi.dog/docs/api-v2
-    """
+def fizzbuzz(n : int):
     pass
-
-get_dog_breeds()
-
-
-
